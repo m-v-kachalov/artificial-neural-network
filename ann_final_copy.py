@@ -1,8 +1,6 @@
 import numpy as np
 import pprint as pp
 import math, operator, csv, sys, random
-# credit for mnist.py http://g.sweyla.com/blog/2012/mnist-numpy/
-from mnist import load_mnist
 
 class neuralnetwork:
 
