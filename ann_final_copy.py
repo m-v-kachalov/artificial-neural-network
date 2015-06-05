@@ -48,7 +48,7 @@ class neuralnetwork:
 	# given the network output.
 	def back_prop(self, network, given_label):
 		output = network[-1]
-		labels = [-1.0 for i in xrange(len(output))]
+		labels = np.zeros((len(output),), dtype = np.float)
 		labels[given_label] = 1.0
 		output_errors = []
 
