@@ -1,5 +1,4 @@
 import numpy as np
-import pprint as pp
 import math, operator, csv, sys, random
 
 class neuralnetwork:
